@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+
+:root{
+    --branco--verde:#E9F7EF;
+    --verde01:#84E1AD ;
+    --verde02:#3CD681;
+    --verde03:#268551;
+    --verde04:#1A5C38;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url(idroid.otf);
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(BebasNeue-Regular.ttf);
+}
+
+
+
+*{
+    margin: 0px;
+}
+body {
+    background-color: var(--verde01);
+}
+
+main{background-color:white ;
+    max-width: 850px ;
+    min-width: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.822);
+    border-radius: 0px 0px 15px 15px;
+    
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--verde02),var(--verde03),var(--verde04));
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.842) ;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    padding: 33px 0px 16px 0px;
+    font-family: 'Bebas';
+    font-size: 50px;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+    padding-bottom: 66px;
+    font-family: 'Bebas';
+    font-size: 19px;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 7px 7px 7px;
+    position: relative;
+    bottom: 8px;
+    transition: .45s;
+    font-family: 'Bebas';
+    font-size: 19px;
+}
+
+nav > a:hover {
+    color: var(--verde05);
+    background-color: var(--verde03);
+}
+
+main > img {
+    margin: auto;
+    display: block;
+}
+
+.imagem {
+    margin: auto;
+    display: block ;
+}
+
+footer {
+    background-color: var(--verde04);
+    color: white;
+    text-align: center;
+}
+
+main > h1 {
+    font-family: 'idroid';
+    padding: 25px 0px 17px 40px;
+    color: var(--verde03);
+}
+
+.colorimage {
+    font-family: 'idroid';
+    max-width: 443px;
+    padding-left: 17px;
+    margin-bottom: 39px;
+    position: relative;
+    top: 18px;
+    left: 20px;
+    color: var(--verde03);
+    background-image: linear-gradient(to right, var(--verde01),var(--branco--verde),white);
+
+}
+
+main > p {
+    line-height: 30px ;
+    text-align: justify;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding: 0px 27px 0px 27px;
+}
+
+.paragrafo {
+    padding-left: 30px;
+}
+
+div#video {
+    background-color: var(--verde04);
+    padding-bottom: 56.4%;
+    position: relative;
+
+ 
+}
+
+iframe{
+    padding-top: 15px;
+    padding-left: 45px;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+
+.verde {
+    color: var(--verde03);
+}
+
+section {
+    border: 2px solid var(--verde03);
+    border-radius: 10px 10px 10px 10px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    text-align: justify;
+    line-height: 22px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+div#q {
+    background-color: var(--verde03);
+    font-family: sans-serif;
+    padding: 15px 0px 15px 15px;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: '\2713';
+
+}
+
+abbr {
+    text-decoration: underline;
+}
+
