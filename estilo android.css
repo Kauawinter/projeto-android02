@@ -93,14 +93,16 @@ footer {
 }
 
 main > h1 {
+    font-size: 25px;
     font-family: 'idroid';
     padding: 25px 0px 17px 40px;
     color: var(--verde03);
 }
 
 .colorimage {
+    font-size: 21px;
     font-family: 'idroid';
-    max-width: 443px;
+    max-width: 350px;
     padding-left: 17px;
     margin-bottom: 39px;
     position: relative;
@@ -166,6 +168,7 @@ div#q {
 
 ul {
     list-style-type: none;
+    columns: 2;
 }
 
 li::before {
