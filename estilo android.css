@@ -39,6 +39,7 @@ main{background-color:white ;
 }
 
 header{
+    margin: auto;
     background-image: linear-gradient(to bottom, var(--verde02),var(--verde03),var(--verde04));
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.842) ;
 }
