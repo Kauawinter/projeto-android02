@@ -82,6 +82,10 @@ main > img {
     display: block;
 }
 
+.imagem02{
+    padding-right: 0.5%;
+}
+
 .imagem {
     margin: auto;
     display: block ;
